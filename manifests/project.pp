@@ -12,7 +12,7 @@ define projects::project (
   $description = ""
 ) {
 
-  # If least one project definition exists for this host, creaste the base structure
+  # If least one project definition exists for this host, create the base structure
   if ($apache != {} or
       $mysql != {} or
       $tomcat !={}) {
